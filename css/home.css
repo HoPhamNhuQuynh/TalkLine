@@ -1515,3 +1515,38 @@
         font-size: 1.7vw;
         margin-right: .2rem;
     }
+
+@media screen and (max-width: 550px) {
+    .stories{
+        display: none;
+    }
+    #text-logo{
+        display: none;
+    }
+    nav.left{
+        left: 50%;
+        position: fixed;
+        border-right:0.05em solid white;
+    }
+    .menu > ul {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .menu > ul >li {
+        margin-right: 1rem;
+
+    }
+    .left span{
+        display: none;
+    }
+    .content{
+        width: 100%;
+        height: 90vh;
+    }
+    .right{
+        display: none;
+    }
+}
+
+
