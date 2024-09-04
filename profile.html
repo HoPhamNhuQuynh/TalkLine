@@ -1,0 +1,772 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Profiles</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" rel="stylesheet" />
+    <link rel='stylesheet'
+        href='https://cdn-uicons.flaticon.com/2.5.1/uicons-regular-straight/css/uicons-regular-straight.css'>
+    <link href="css/profile.css" rel="stylesheet" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link href="images/talklinelogo.png" rel="shortcut icon" />
+    <script src="js/profile.js"></script>
+</head>
+
+<body class="flex scrollable">
+    <div class="popup">
+        <div id="pop" class="flex">
+            <div class="popup-left">
+                <img class="img" src="images/img4-content.png" alt="img">
+                <div><i class="fa-solid fa-arrow-right"></i></div>
+            </div>
+            <div class="popup-right">
+                <div class="flex">
+                    <div class="flex">
+                        <img src="images/avataricon.png" alt="avata">
+                        <span>Doris</span>
+                    </div>
+                    <div><i class="fa-solid fa-ellipsis"></i></div>
+                </div>
+                <div>
+                    <div class="comment-popup flex">
+                        <img src="images/avataricon.png" alt="avata">
+                        <div>
+                            <p><strong>Doris</strong> #viral #tamtrang #doris </p>
+                            <span>1 day ago</span>
+                        </div>
+
+                    </div>
+                    <div class="comment-popup flex">
+                        <img src="images/avataricon.png" alt="avata">
+                        <div>
+                            <p><strong>Alana</strong> Waooooooo</p>
+                            <span>1 day ago</span>
+                        </div>
+
+                    </div>
+                    <div class="comment-popup flex">
+                        <img src="images/avataricon.png" alt="avata">
+                        <div>
+                            <p><strong>Koisthe</strong> Don't cry! </p>
+                            <span>1 day ago</span>
+                        </div>
+
+                    </div>
+                    <div class="comment-popup flex">
+                        <img src="images/avataricon.png" alt="avata">
+                        <div>
+                            <p><strong>Tina</strong> i miss u &#9785; </p>
+                            <span>1 day ago</span>
+                        </div>
+
+                    </div>
+                    <div class="comment-popup flex">
+                        <img src="images/avataricon.png" alt="avata">
+                        <div>
+                            <p><strong>Alice</strong> i miss u &#9785; </p>
+                            <span>1 day ago</span>
+                        </div>
+
+                    </div>
+                    <div class="comment-popup flex">
+                        <img src="images/avataricon.png" alt="avata">
+                        <div>
+                            <p><strong>Masted</strong> i miss u &#9785; </p>
+                            <span>1 day ago </span>
+                        </div>
+
+                    </div>
+                    <div class="comment-popup flex">
+                        <img src="images/avataricon.png" alt="avata">
+                        <div>
+                            <p><strong>Samatha</strong> i miss u &#9785; </p>
+                            <span>1 day ago</span>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="icons-content flex">
+                        <div class="icon-content flex">
+                            <i class="fa-regular fa-heart"></i>
+                            <i class="fa-regular fa-comment"></i>
+                            <i class="fa-regular fa-paper-plane"></i>
+                        </div>
+                        <i class="fa-regular fa-bookmark"></i>
+                    </div>
+                    <p><strong>Chiste</strong> and <strong>others</strong> liked</p>
+                    <p>1 day ago</p>
+
+                </div>
+                <div class="addcomment-popup flex">
+                    <i class="fa-regular fa-face-smile-wink"></i>
+                    <input type="text" placeholder="Add comment">
+                    <input type="button" value="POST" />
+                </div>
+            </div>
+        </div>
+        <a class="close" href="#">&times;</a>
+
+    </div>
+    <nav class="left">
+        <div class="side-bar">
+            <div class="main-logo flex">
+                <img id="text-logo" src="images/talklinelogo.png" alt="text-logo">
+            </div>
+            <div class="main-menu">
+                <ul>
+                    <li title="Home"><a href="home.html"><i class="fa-solid fa-house"></i></a></li>
+                    <li title="Messages"><a href="mesenger.html"><i class="fa-regular fa-comment"></i></a></li>
+                    <li title="Notifications"><a id="notice" href="#"><i class="fa-regular fa-heart"></i></a></li>
+                    <li title="Create"><a id="create" href="#"><i class="fa-solid fa-pen-to-square"></i></a></li>
+                    <li title="Discover"><a href="discover.html"><i class="fa-regular fa-compass"></i></a></li>
+                    <li title="Profile"><a href="profile.html"><i class="fa-regular fa-circle-user"></i></a></li>
+                    <li title="More" id="more"><a href="#"><i class="fa-solid fa-bars"></i></a>
+                        <div class="subcontent-more">
+                            <ul class="menu2">
+                                <li><a href="#"><i class="fa-solid fa-gear"></i> Setting</a></li>
+                                <li><a href="#"><i class="fa-regular fa-image"></i> Your Activity</a></li>
+                                <li><a href="#"><i class="fa-regular fa-bookmark"></i> Saved</a></li>
+                                <li id="switch-mode"><a href="#"><i class="fa-solid fa-sun"></i> Switch mode</a></li>
+                                <li><a href="#"><i class="fa-solid fa-triangle-exclamation"></i> Report a problem</a>
+                                </li>
+                                <li><a href="#"><i class="fa-solid fa-shuffle"></i> Transfer account</a></li>
+                                <li><a href="login.html" target="_blank"><i class="fa-solid fa-right-from-bracket"></i>
+                                        Log out</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="subcontent-noti">
+        <div class="noti">
+            <h2>Notifications</h2>
+            <div class="today">
+                <h3>Today</h3>
+                <div class="informs">
+                    <div class="inform flex">
+                        <div class="col1"><img src="images/avataricon.png" /></div>
+                        <div class="col2">
+                            <p><strong>Alana</strong> started following you. 13h</p>
+                        </div>
+                        <div class="col3"><button class="follow-btn">Following</button></div>
+                    </div>
+                </div>
+            </div>
+            <div class="yesterday">
+                <h3>Yesterday</h3>
+                <div class="informs">
+                    <div class="inform flex">
+                        <div class="col1"><img src="images/avataricon.png" /></div>
+                        <div class="col2">
+                            <p><strong>_11Lnk</strong> liked your post. 1 day</p>
+                        </div>
+                        <div class="post1"><img src="images/story1.png" alt="str1"></div>
+                    </div>
+
+                </div>
+                <div class="informs">
+                    <div class="inform flex">
+                        <div class="col1"><img src="images/avataricon.png" /></div>
+                        <div class="col2">
+                            <p><strong>YenLEle</strong> liked your post. 1 day</p>
+                        </div>
+                        <div class="col3"><button class="follow-btn">Following</button></div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="thisweek">
+                <h3>This week</h3>
+                <div class="informs">
+                    <div class="inform-week flex">
+                        <div class="images-container">
+                            <div><img class="image1" src="images/avataricon.png" alt="avatar"></div>
+                            <div><img class="image2" src="images/avataricon.png" alt="avatar"></div>
+                        </div>
+                        <div class="colum2">
+                            <p><strong>m.nwggg</strong> and <strong>mkoi</strong> liked your post. 2 days</p>
+                        </div>
+                        <div class="post1 "><img src="images/story1.png" alt="str2"></div>
+                    </div>
+                </div>
+                <div class="informs">
+                    <div class="inform-week flex">
+                        <div class="col1"><img src="images/avataricon.png" /></div>
+                        <div class="col2">
+                            <p><strong>Alana</strong> requested to follow you. 2 weeks</p>
+                        </div>
+                        <div class="btns flex ">
+                            <button class="btn1">Confirm</button>
+                            <button class="btn2">Erase</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="thismonth">
+                <h3>This month</h3>
+                <div class="informs">
+                    <div class="inform-week flex">
+                        <div class="images-container">
+                            <div><img class="image1" src="images/avataricon.png" alt="avatar"></div>
+                            <div><img class="image2" src="images/avataricon.png" alt="avatar"></div>
+                        </div>
+                        <div class="colum2">
+                            <p><strong>m.nwggg</strong> and <strong>mkoi</strong> liked your post. 2 days</p>
+                        </div>
+                        <div class="post1 "><img src="images/story1.png" alt="str2"></div>
+                    </div>
+                </div>
+                <div class="informs">
+                    <div class="inform-week flex">
+                        <div class="col1"><img src="images/avataricon.png" /></div>
+                        <div class="col2">
+                            <p><strong>Alana</strong> requested to follow you. 2 weeks</p>
+                        </div>
+                        <div class="btns flex ">
+                            <button class="btn1">Confirm</button>
+                            <button class="btn2">Erase</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="informs">
+                    <div class="inform-week flex">
+                        <div class="col1"><img src="images/avataricon.png" /></div>
+                        <div class="col2">
+                            <p><strong>Alana</strong> requested to follow you. 2 weeks</p>
+                        </div>
+                        <div class="btns flex ">
+                            <button class="btn1">Confirm</button>
+                            <button class="btn2">Erase</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="informs">
+                    <div class="inform flex">
+                        <div class="col1"><img class="img" src="images/avataricon.png" /></div>
+                        <div class="col2">
+                            <p><strong>YenLEle</strong> liked your post. 1 day</p>
+                        </div>
+                        <div class="col3"><button class="follow-btn">Following</button></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="Creates">
+        <div class="subcontent-create flex">
+            <div class="post flex">
+                <h1>Create Post</h1>
+                <a id="exit" href="#"><i class="fa-solid fa-x"></i></a>
+            </div>
+            <div class="newpost flex">
+                <div class="items flex">
+                    <img src="images/avataricon.png" />
+                </div>
+                <div>
+                    <div class="item"><span><strong>Doris</strong></span></div>
+                    <div>
+                        <ul class="item flex">
+                            <li><i class="fa-solid fa-earth-americas"></i></li>
+                            <li>Public</li>
+                            <li><i class="fa-solid fa-caret-down"></i></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="write-create">
+                <div class="write flex">
+                    <input type="text" placeholder="Hey Doris, What do you think?" />
+                </div>
+                <div>
+                    <img src="images/iconAa.png" />
+                    <i class="fa-regular fa-face-smile"></i>
+                </div>
+            </div>
+            <div class="tags-create flex">
+                <div class="tag-create flex">
+                    <input type="button" value="Add to your post" />
+                    <ul class="icon-create flex">
+                        <li><i class="fa-solid fa-images"></i></li>
+                        <li><i class="fa-solid fa-tags"></i></li>
+                        <li><i class="fa-regular fa-face-smile-wink"></i></li>
+                        <li><i class="fa-solid fa-location-dot"></i></li>
+                        <li><i class="fa-solid fa-paperclip"></i></li>
+                        <li><i class="fa-solid fa-ellipsis"></i></li>
+                    </ul>
+                </div>
+                <div class="next">
+                    <p>Next</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section class="main-right">
+        <header class="tcn">
+            <div class="person-info">
+                <div class="background">
+                    <div class="edit-picture">
+                        <button><a><i class="fa-solid fa-camera"></i> Edit cover photo</a></button>
+                    </div>
+                </div>
+                <div class="info ">
+                    <div class="flex">
+                        <div class="left flex">
+                            <div class="flex">
+                                <div class="avatar">
+                                    <img class="avataricon" src="images/tulip.png" alt="avatar" />
+                                    <button title="edit your profile picture"><i
+                                            class="fa-solid fa-camera"></i></button>
+                                </div>
+                                <div class="name">
+                                    <h1>Doris</h1>
+                                    <a href="#">154 friends</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="right">
+                            <div class="flex">
+                                <div>
+                                    <button><a href="#"><i class="fa-solid fa-plus"></i> Add to story</a></button>
+                                </div>
+                                <div>
+                                    <button><i class="fa-solid fa-pen"></i> Edit profile</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <nav class="navig">
+                        <div>
+                            <ul class="menu flex">
+                                <li><a href="#">Posts</a></li>
+                                <li><a href="#">About</a></li>
+                                <li><a href="#">Friends</a></li>
+                                <li><a href="#">Photos</a></li>
+                                <li><a href="#">Videos</a></li>
+                                <li><a href="#">Reels</a></li>
+                                <li class="sub-more">
+                                    <span>More </span>
+                                    <i class="fa-solid fa-caret-down"></i>
+
+                                    <ul class="submenu">
+                                        <li><a href="#">Check-ins</a></li>
+                                        <li><a href="#">Sports</a></li>
+                                        <li><a href="#">Music</a></li>
+                                        <li><a href="#">Movies</a></li>
+                                        <li><a href="#">TV shows</a></li>
+                                        <li><a href="#">Books</a></li>
+                                        <li><a href="#">Apps and games</a></li>
+                                        <li><a href="#">Likes</a></li>
+                                        <li><a href="#">Events</a></li>
+                                        <li><a href="#">Groups</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <button><i class="fa-solid fa-ellipsis"></i></button>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <div class="container flex">
+            <section class="left scrollable">
+                <div class="intro">
+                    <h2>Intro</h2>
+                    <div>
+                        <div class="bio">
+                            <p>hi, guy!!!</p>
+                            <p>&#127827;</p>
+                            <p>" You become what you believe. "</p>
+                        </div>
+                        <div>
+                            <button class="edit-btn">Edit bio</button>
+                        </div>
+                    </div>
+                    <div class="infor">
+                        <div>
+                            <i class="fa-solid fa-graduation-cap"></i>
+                            <span> Studied at Trường Đại Học Mở TPHCM</span>
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-heart"></i>
+                            <span> Single</span>
+                        </div>
+                        <div>
+                            <!-- <i class="fa-brands fa-facebook"></i> -->
+                            <i class="fa-brands fa-instagram fa-beat-fade"></i>
+                            <span><a href="#"> 26.th.11_doris</a></span>
+                        </div>
+                        <div>
+                            <i class="fa-brands fa-twitter fa-beat-fade"></i>
+                            <span><a href="#"> me_26.11</a></span>
+                        </div>
+                        <div>
+                            <button class="edit-btn">Edit details</button>
+                        </div>
+                    </div>
+                    <!-- Chưa có xong còn cái card lướt tin nổi bật -->
+                    <div>
+                        <div class="mark-stories flex">
+                            <div>
+                                <img src="images/story-img-1.jpg" alt="story" class="story">
+                                <p>&#127827;</p>
+                            </div>
+                            <div>
+                                <img src="images/story-img-2.jpg" alt="story" class="story">
+                                <p>&#x1F353;</p>
+                            </div>
+                            <div>
+                                <img src="images/story-img-3.jpg" alt="story" class="story">
+                                <p>&#x1F353;</p>
+                            </div>
+                        </div>
+                        <div>
+                            <button class="edit-btn">Edit featured</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="photo">
+                    <div class="tittle flex">
+                        <h2>Photos</h2>
+                        <a href="#">See all photos</a>
+                    </div>
+                    <div class="photos">
+                        <div class="photos3 flex">
+                            <img src="images/story-img-1.jpg" alt="photo">
+                            <img src="images/story-img-2.jpg" alt="photo">
+                            <img src="images/story-img-3.jpg" alt="photo">
+                        </div>
+                        <div class="photos3 flex">
+                            <img src="images/story-img-1.jpg" alt="photo">
+                            <img src="images/story-img-2.jpg" alt="photo">
+                            <img src="images/story-img-3.jpg" alt="photo">
+                        </div>
+                        <div class="photos3 flex">
+                            <img src="images/story-img-1.jpg" alt="photo">
+                            <img src="images/story-img-2.jpg" alt="photo">
+                            <img src="images/story-img-3.jpg" alt="photo">
+                        </div>
+                    </div>
+                </div>
+                <div class="friends">
+                    <div class="tittle flex">
+                        <h2>Friends</h2>
+                        <a href="#">See all friends</a>
+                    </div>
+                    <span>156 friends</span>
+                    <div class="list-frs">
+                        <div class="list3 flex">
+                            <div class="fr">
+                                <img src="images/avataricon.png" alt="name" />
+                                <p>Chiste</p>
+                            </div>
+                            <div class="fr">
+                                <img src="images/avataricon.png" alt="name" />
+                                <p>Alice</p>
+                            </div>
+                            <div class="fr">
+                                <img src="images/avataricon.png" alt="name" />
+                                <p>Chistopher</p>
+                            </div>
+                        </div>
+                        <div class="list3 flex">
+                            <div class="fr">
+                                <img src="images/avataricon.png" alt="name" />
+                                <p>Masted</p>
+                            </div>
+                            <div class="fr">
+                                <img src="images/avataricon.png" alt="name" />
+                                <p>Princess</p>
+                            </div>
+                            <div class="fr">
+                                <img src="images/avataricon.png" alt="name" />
+                                <p>Anma</p>
+                            </div>
+                        </div>
+                        <div class="list3 flex">
+                            <div class="fr">
+                                <img src="images/avataricon.png" alt="name" />
+                                <p>Pinky</p>
+                            </div>
+                            <div class="fr">
+                                <img src="images/avataricon.png" alt="name" />
+                                <p>Tina</p>
+                            </div>
+                            <div class="fr">
+                                <img src="images/avataricon.png" alt="name" />
+                                <p>Masted</p>
+                            </div>
+                        </div>
+                    </div>
+            </section>
+            <section class="right scrollable">
+                <div class="exchange">
+                    <div class="greet flex">
+                        <div class="ava">
+                            <img src="images/tulip.png" alt="avatar" />
+                        </div>
+                        <div class="btn-greet">
+                            <input type="text" placeholder="What's on your mind?"></input>
+                        </div>
+                    </div>
+                    <div class="social flex">
+                        <div><a href="#"><i class="fa-solid fa-podcast"></i> Live video</a></div>
+                        <div><a href="#"><i class="fa-regular fa-images"></i> Photo/Video</a></div>
+                        <div><a href="#"><i class="fa-brands fa-font-awesome"></i> Life event</a></div>
+                    </div>
+                </div>
+                <div class="posts">
+                    <div class="tittle flex">
+                        <h2>Posts</h2>
+                        <div class="manage-filter flex">
+                            <button><i class="fa-solid fa-sliders"></i> Filter</button>
+                            <button><i class="fa-solid fa-gears"></i> Manage posts</button>
+                        </div>
+                    </div>
+                    <div class="list-grid flex">
+                        <div><i class="fa-solid fa-list"></i> List view</div>
+                        <div><i class="fa-solid fa-border-all"></i> Grid view</div>
+                    </div>
+                </div>
+                <!-- Phần này là bài viết chắc copy của bảo yến qua ó -->
+                <div class="contents">
+                    <div class="content flex">
+                        <div class=" head-contents flex">
+                            <img src="images/avataricon.png" alt="avata">
+                            <div class="head-content ">
+                                <span>Doris</span>
+                                <i class="fa-solid fa-circle-check"></i>
+                                <span>&sdot;</span>
+                                <time datetime="2024-08-18T12:00:08.000Z" title="18 Tháng 8 2024">1 hour ago</time>
+                            </div>
+                            <div>
+                                <i class="fa-solid fa-ellipsis"></i>
+                            </div>
+                        </div>
+                        <div class="body-content flex"><img src="images/img2-content.png" alt="body"></div>
+                        <div class="comment-content">
+                            <div class="icons-content flex">
+                                <div class="icon-content flex">
+                                    <i class="fa-regular fa-heart"></i>
+                                    <i class="fa-regular fa-comment"></i>
+                                    <i class="fa-regular fa-paper-plane"></i>
+                                </div>
+                                <i class="fa-regular fa-bookmark"></i>
+                            </div>
+                            <div class="text-content">
+                                <p><strong>Chistopher</strong> and <strong>others</strong> have liked</p>
+                                <div>
+                                    <p><strong>Doris</strong> I miss you!!!</p>
+                                </div>
+                                <div>
+                                    <a href="#"><span>View all 211 comnments</span></a>
+                                </div>
+                            </div>
+                            <div class="add-comment flex">
+                                <input type="text" placeholder="Add comment">
+                                <i class="fa-regular fa-face-smile-wink"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content flex">
+                        <div class=" head-contents flex">
+                            <img src="images/avataricon.png" alt="avata">
+                            <div class="head-content ">
+                                <span>Doris</span>
+                                <i class="fa-solid fa-circle-check"></i>
+                                <span>&sdot;</span>
+                                <time datetime="2024-08-18T12:00:08.000Z" title="18 Tháng 8 2024">1 hour ago</time>
+                            </div>
+                            <div>
+                                <i class="fa-solid fa-ellipsis"></i>
+                            </div>
+                        </div>
+                        <div class="body-content flex"><img src="images/img1-content.png" alt="body"></div>
+                        <div class="comment-content">
+                            <div class="icons-content flex">
+                                <div class="icon-content flex">
+                                    <i class="fa-regular fa-heart"></i>
+                                    <i class="fa-regular fa-comment"></i>
+                                    <i class="fa-regular fa-paper-plane"></i>
+                                </div>
+                                <i class="fa-regular fa-bookmark"></i>
+                            </div>
+                            <div class="text-content">
+                                <p><strong>LeLe</strong> and <strong>others</strong> have liked</p>
+                                <div>
+                                    <p><strong>Doris</strong> I miss you!!!</p>
+                                </div>
+                                <div>
+                                    <a href="#"><span>View all 211 comnments</span></a>
+                                </div>
+                            </div>
+                            <div class="add-comment flex">
+                                <input type="text" placeholder="Add comment">
+                                <i class="fa-regular fa-face-smile-wink"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content flex">
+                        <div class=" head-contents flex">
+                            <img src="images/avataricon.png" alt="avata">
+                            <div class="head-content ">
+                                <span>Doris</span>
+                                <i class="fa-solid fa-circle-check"></i>
+                                <span>&sdot;</span>
+                                <time datetime="2024-08-18T12:00:08.000Z" title="18 Tháng 8 2024">1 hour ago</time>
+                            </div>
+                            <div>
+                                <i class="fa-solid fa-ellipsis"></i>
+                            </div>
+                        </div>
+                        <div class="body-content flex"><img src="images/rose.jpg" alt="body"></div>
+                        <div class="comment-content">
+                            <div class="icons-content flex">
+                                <div class="icon-content flex">
+                                    <i class="fa-regular fa-heart"></i>
+                                    <i class="fa-regular fa-comment"></i>
+                                    <i class="fa-regular fa-paper-plane"></i>
+                                </div>
+                                <i class="fa-regular fa-bookmark"></i>
+                            </div>
+                            <div class="text-content">
+                                <p><strong>Princess</strong> and <strong>others</strong> have liked</p>
+                                <div>
+                                    <p><strong>Doris</strong> I miss you!!!</p>
+                                </div>
+                                <div>
+                                    <a href="#"><span>View all 211 comnments</span></a>
+                                </div>
+                            </div>
+                            <div class="add-comment flex">
+                                <input type="text" placeholder="Add comment">
+                                <i class="fa-regular fa-face-smile-wink"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content flex">
+                        <div class=" head-contents flex">
+                            <img src="images/avataricon.png" alt="avata">
+                            <div class="head-content ">
+                                <span>Doris</span>
+                                <i class="fa-solid fa-circle-check"></i>
+                                <span>&sdot;</span>
+                                <time datetime="2024-08-18T12:00:08.000Z" title="18 Tháng 8 2024">1 hour ago</time>
+                            </div>
+                            <div>
+                                <i class="fa-solid fa-ellipsis"></i>
+                            </div>
+                        </div>
+                        <div class="body-content flex"><img src="images/img3-content.png" alt="body"></div>
+                        <div class="comment-content">
+                            <div class="icons-content flex">
+                                <div class="icon-content flex">
+                                    <i class="fa-regular fa-heart"></i>
+                                    <i class="fa-regular fa-comment"></i>
+                                    <i class="fa-regular fa-paper-plane"></i>
+                                </div>
+                                <i class="fa-regular fa-bookmark"></i>
+                            </div>
+                            <div class="text-content">
+                                <p><strong>Koisthe</strong> and <strong>others</strong> have liked</p>
+                                <div>
+                                    <p><strong>Doris</strong> I miss you!!!</p>
+                                </div>
+                                <div>
+                                    <a href="#"><span>View all 211 comnments</span></a>
+                                </div>
+                            </div>
+                            <div class="add-comment flex">
+                                <input type="text" placeholder="Add comment">
+                                <i class="fa-regular fa-face-smile-wink"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content flex">
+                        <div class=" head-contents flex">
+                            <img src="images/avataricon.png" alt="avata">
+                            <div class="head-content ">
+                                <span>Doris</span>
+                                <i class="fa-solid fa-circle-check"></i>
+                                <span>&sdot;</span>
+                                <time datetime="2024-08-18T12:00:08.000Z" title="18 Tháng 8 2024">1 hour ago</time>
+                            </div>
+                            <div>
+                                <i class="fa-solid fa-ellipsis"></i>
+                            </div>
+                        </div>
+                        <div class="body-content flex"><img src="images/camtucau.jpg" alt="body"></div>
+                        <div class="comment-content">
+                            <div class="icons-content flex">
+                                <div class="icon-content flex">
+                                    <i class="fa-regular fa-heart"></i>
+                                    <i class="fa-regular fa-comment"></i>
+                                    <i class="fa-regular fa-paper-plane"></i>
+                                </div>
+                                <i class="fa-regular fa-bookmark"></i>
+                            </div>
+                            <div class="text-content">
+                                <p><strong>Tina</strong> and <strong>others</strong> have liked</p>
+                                <div>
+                                    <p><strong>Doris</strong> I miss you!!!</p>
+                                </div>
+                                <div>
+                                    <a href="#"><span>View all 211 comnments</span></a>
+                                </div>
+                            </div>
+                            <div class="add-comment flex">
+                                <input type="text" placeholder="Add comment">
+                                <i class="fa-regular fa-face-smile-wink"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content flex">
+                        <div class=" head-contents flex">
+                            <img src="images/avataricon.png" alt="avata">
+                            <div class="head-content ">
+                                <span>Doris</span>
+                                <i class="fa-solid fa-circle-check"></i>
+                                <span>&sdot;</span>
+                                <time datetime="2024-08-18T12:00:08.000Z" title="18 Tháng 8 2024">1 hour ago</time>
+                            </div>
+                            <div>
+                                <i class="fa-solid fa-ellipsis"></i>
+                            </div>
+                        </div>
+                        <div class="body-content flex"><img src="images/tulip.png" alt="body"></div>
+                        <div class="comment-content">
+                            <div class="icons-content flex">
+                                <div class="icon-content flex">
+                                    <i class="fa-regular fa-heart"></i>
+                                    <i class="fa-regular fa-comment"></i>
+                                    <i class="fa-regular fa-paper-plane"></i>
+                                </div>
+                                <i class="fa-regular fa-bookmark"></i>
+                            </div>
+                            <div class="text-content">
+                                <p><strong>Sally</strong> and <strong>others</strong> have liked</p>
+                                <div><p><strong>Doris</strong> I miss you!!!</p></div>
+                                <div>
+                                    <a href="#"><span>View all 211 comnments</span></a>
+                                </div>
+                            </div>
+                            <div class="add-comment flex">
+                                <input type="text" placeholder="Add comment">
+                                <i class="fa-regular fa-face-smile-wink"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+        </div>
+    </section>
+</body>
+
+</html>

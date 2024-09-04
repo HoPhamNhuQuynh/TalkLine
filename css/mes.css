@@ -1,0 +1,513 @@
+    /* Reset CSS */
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+
+    .flex {
+        display: flex;
+    }
+
+    body {
+        background-color: #f4f1ed;
+    }
+
+    a {
+        text-decoration: none;
+        color: #000;
+    }
+
+    /*CSS PHẦN MENU SLIDEBAR */
+    nav.left-mes {
+        position: fixed;
+        width: 5vw;
+        height: 100vh;
+        background-color: #d6d5d3;
+
+    }
+
+    .sidebar-mes {
+        /* background-color: rgb(231, 222, 222); */
+        width: 60%;
+        height: 100vh;
+        margin: 0 auto;
+        border-radius: 2rem;
+
+    }
+
+
+    /* CSS PHẦN SLIDEBAR ITEM1 */
+    .sidebar-mes>.item1-mes {
+        width: 100%;
+        height: 70vh;
+        /* background-color: rgb(244, 244, 223); */
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    div.item1-mes>div {
+        /* height: 5vh; */
+        margin: .3rem 0;
+        /* background-color: antiquewhite; */
+    }
+
+    div.item1-mes>div:hover {
+        background-color: #b3b2b1;
+        border-radius: .5rem;
+        cursor: pointer;
+    }
+
+    div.item1-mes>div:last-child {
+        height: auto
+    }
+
+    div.item1-mes i {
+        font-size: 2vw;
+        padding: .6rem .4rem;
+
+    }
+
+    /* CSS PHẦN SLIEDBAR ITEM 2 */
+    .sidebar-mes>.item2-mes {
+        width: 100%;
+        height: 30vh;
+        /* background-color: blue; */
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: center;
+    }
+
+    div.item2-mes>div {
+        width: 100%;
+        height: 8vh;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+
+    }
+
+    div.item2-mes>div:hover {
+        background-color: #b3b2b1;
+        border-radius: .5rem;
+    }
+
+    div.item2-mes img {
+        width: 90%;
+        height: auto;
+    }
+
+    div.item2-mes i {
+        font-size: 2vw;
+    }
+
+    /* CSS PHẦN MENU NHỮNG NGƯỜI LIÊN HỆ */
+    section.menu-contacts {
+        background-color: #fff;
+        width: 28vw;
+        height: 96vh;
+        position: fixed;
+        left: 6vw;
+        border-radius: 10px;
+        top: 10px;
+        /* background-color: rgb(72, 197, 99); */
+
+    }
+
+    /* CSS PHẦN ĐẦU MENU NGƯỜI LIÊN HỆ */
+    section.menu-contacts>div {
+        position: fixed;
+        width: 28vw;
+    }
+
+    /* CSS phần tiêu đề  */
+    section.menu-contacts .head-contact {
+        width: 100%;
+        height: 10vh;
+        justify-content: space-between;
+        align-items: center;
+        /* background-color: rgb(155, 103, 39); */
+    }
+
+    section.menu-contacts h2 {
+        color: black;
+        font-size: 2vw;
+        text-align: center;
+        margin-left: 1rem;
+    }
+
+    .menu-contacts>div:first-child {
+        border-bottom: 1px solid grey;
+    }
+
+    section.menu-contacts .head-contact i {
+        margin: 1rem;
+        font-size: 1.3vw;
+        font-weight: 700;
+    }
+
+    /* Phần tìm kiếm người liên hệ */
+    div.search {
+        width: 100%;
+        height: 10vh;
+        align-items: center;
+
+    }
+
+    div.search>div:nth-child(1) {
+        position: relative;
+        height: 65%;
+        margin: 0 auto;
+        width: 98%;
+        display: flex;
+        align-items: center;
+        border-radius: 2rem;
+        box-shadow: 2px 2px 2px grey;
+        background-color: whitesmoke;
+
+
+    }
+
+    div.search .icon-search {
+        position: absolute;
+        height: auto;
+        left: 15px;
+
+    }
+
+    div.search i {
+        font-size: 1.5vw;
+        color: grey;
+
+    }
+
+    div.search>div:nth-child(1) input[type="text"] {
+        width: 80%;
+        height: 60%;
+        border: 0;
+        outline: none;
+        font-size: 1.2vw;
+        margin-left: 3rem;
+        background-color: whitesmoke;
+    }
+
+    /* phan nay la chinh cai thong tin lien he */
+    div.profile-contact {
+        width: 100%;
+        height: 75vh;
+        /* background-color: rgb(219, 46, 46); */
+        margin-top: 120px;
+        overflow-y: scroll;
+    }
+
+    div.name-contact {
+        width: 95%;
+        height: 12vh;
+        /* background-color: rgb(39, 151, 119); */
+        margin: .5rem;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    ::-webkit-scrollbar {
+        width: 12px;
+        /* Độ rộng của thanh scrollbar */
+    }
+
+    /* Cấu hình cho phần tay cầm của thanh scrollbar */
+    ::-webkit-scrollbar-thumb {
+        background: rgba(192, 186, 186, 0.5);
+        /* Màu nền của tay cầm scrollbar */
+        border-radius: 10px;
+        /* Bo tròn các góc của tay cầm scrollbar */
+    }
+
+    div.name-contact:hover {
+        background-color: rgb(184, 180, 180);
+        cursor: pointer;
+        border-radius: .5rem;
+    }
+
+    div.name-contact>div:first-child {
+        width: 50%;
+        height: auto;
+        justify-content: space-evenly;
+        align-items: center;
+
+    }
+
+    .img-contact {
+        width: 65%;
+    }
+
+    div.name-contact img {
+        width: 95%;
+    }
+
+    .info-contact {
+        width: 100%;
+        font-size: 1.2vw;
+    }
+
+
+    /* CSS PHẦN NỘI DUNG ĐOẠN CHAT */
+    main.chat-mains {
+        position: fixed;
+        /* Hoặc 'absolute' nếu nó nên được đặt tương đối với phần tử cha gần nhất có positioning */
+        width: 66%;
+        height: 100vh;
+        /* Hoặc điều chỉnh để phù hợp với nội dung của bạn */
+        margin-left: calc(5vw + 29vw);
+        /* Điều chỉnh margin để không bị che khuất bởi left-mes và menu-contacts */
+        justify-content: center;
+        align-items: center;
+        /* background-color: rgb(119, 119, 223); */
+    }
+
+    main.chat-mains>div {
+        border-radius: .5rem;
+        width: 98%;
+        height: 95vh;
+        background-image: url(/images/background-mes.jpeg);
+        /* background-color: yellowgreen; */
+    }
+
+    /* CSS PHẦN ĐẦU THÔNG TIN VÀ CÁC BTN GIAO TIẾP */
+    div.head-chat {
+        width: 64.7%;
+        /* background-color: aqua; */
+        height: 10vh;
+        position: fixed;
+        align-items: center;
+        justify-content: space-between;
+        box-shadow: 0px 4px 4px 0px rgb(143, 143, 185);
+        /* background-color: #797070; */
+    }
+
+ 
+
+    div.head-chat>div img {
+        width: 90%;
+    }
+
+    div.head-chat>div:first-child {
+        width: 20%;
+        align-items: center;
+        /* justify-content: center; */
+        border-radius: 10px;
+        /* background-color: yellow; */
+    }
+
+    div.head-chat>div:first-child:hover {
+        background-color: #cfcfcf;
+    }
+
+    div.head-chat>div:first-child>div {
+        width: 40%;
+        height: 10vh;
+        margin-top: 2px;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+
+    }
+
+    div.head-chat p {
+        width: 10vw;
+        font-size: 1.5vw;
+    }
+
+    .head-chat>div:nth-child(2) i {
+        margin: 10px;
+        width: 30px;
+        height: 5vh;
+        border-radius: 10px;
+        padding: 5px;
+    }
+
+    .head-chat>div:nth-child(2) i:hover {
+        background-color: #cfcfcf;
+    }
+
+    /* CSS PHẦN NỘI DUNG TIN NHẮN */
+    div.body-chat {
+        overflow: scroll;
+        width: 100%;
+        height: 79vh;
+        margin-top: 10vh;
+        /* background-color: burlywood; */
+    }
+
+    div.body-chat>div {
+        width: 100%;
+        height: 6vh;
+        padding: .2rem .4rem;
+        margin: .2rem 0;
+    }
+
+    div.body-chat>.time-chat {
+        width: 100%;
+        font-size: 1.2vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        /* background-color: cadetblue; */
+    }
+
+    div.body-chat>.rep-chat {
+        display: flex;
+        /* background-color: #cf2525; */
+    }
+
+    div.body-chat>.rep-chat>div {
+        font-size: 1.2vw;
+        width: auto;
+        background-color: #f4f1ed;
+        margin-left: 3rem;
+        border-radius: .6rem;
+        align-items: center;
+        padding: .1rem .3rem;
+        /* background-color: #872ac5; */
+    }
+
+    div.body-chat .ava {
+        width: 5%;
+        align-items: center;
+        justify-content: left;
+
+    }
+
+    div.body-chat>.text-chat {
+        align-items: center;
+        justify-content: flex-start;
+        /* background-color: #a09850; */
+
+    }
+
+    .ava+div {
+        font-size: 1.2vw;
+        width: auto;
+        height: 100%;
+        background-color: #f4f1ed;
+        border-radius: .6rem;
+        display: flex;
+        align-items: center;
+        margin-left: .3rem;
+        padding: .1rem .3rem;
+        /* background-color: #42c1e0; */
+
+    }
+
+    div.body-chat img {
+        width: 100%;
+        display: flex;
+        align-items: center;
+    }
+
+    div.body-chat>.reply-chat {
+        display: flex;
+        height: 6vh;
+        justify-content: flex-end;
+        /* background-color: rgb(72, 19, 194); */
+    }
+
+    div.body-chat>.reply-chat>div {
+        font-size: 1.2vw;
+        width: auto;
+        height: 100%;
+        background-color: rgb(41, 41, 245);
+        border-radius: .6rem;
+        display: flex;
+        align-items: center;
+        padding: .1rem .3rem;
+        color: aliceblue;
+    }
+
+    /* CSS PHẦN SOẠN TIN NHẮN  */
+    div.footer-chat {
+        width: 100%;
+        height: 6vh;
+        justify-content: space-between;
+        /* background-color: #965a5a; */
+    }
+
+    .tools {
+        width: 15%;
+        height: 100%;
+        margin: 0 .3rem;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .tools i {
+        font-size: 1.5vw;
+        padding: .5rem;
+    }
+
+    .tools i:hover {
+        background-color: #cbcbcae8;
+        border-radius: .5rem;
+    }
+
+    .input-chat {
+        width: 78%;
+        position: relative;
+    }
+
+    div.input-chat input[type="text"] {
+        width: 94%;
+        height: 90%;
+        border: 0;
+        outline: 0;
+        border-radius: .6rem;
+        margin: auto 0;
+        padding: .5rem;
+    }
+
+    div.input-chat>button {
+        width: 6%;
+        height: 100%;
+        font-size: 1.5vw;
+        outline: 0;
+        border: 0;
+        background: none;
+        /* border-radius: 1px; */
+        /* background-color: #4b4947; */
+    }
+
+    div.input-chat i:hover {
+        color: blue;
+    }
+
+    .liked {
+        width: 4%;
+        /* display: flex; */
+        /* align-items: center; */
+        /* justify-content: center; */
+    }
+
+    .liked>button {
+        width: 100%;
+        height: 100%;
+        background: none;
+        outline: 0;
+        padding-right: .5rem;
+
+        border: 0;
+    }
+
+    .liked i {
+        font-size: 2vw;
+        width: 100%;
+        height: 100%;
+        padding: .3rem;
+        /* text-align: center; */
+    }
+
+    .liked i:hover {
+        color: blue;
+    }
