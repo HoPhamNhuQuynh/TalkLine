@@ -126,7 +126,7 @@ $(document).ready(function () {
             // lưu thông tin vào bộ nhớ web của trình duyệt
             localStorage.setItem('user', JSON.stringify(user));
             alert("Register successfull!");
-            window.location.href = "login.html";
+            window.location.href = "index.html";
         }
     });
 
