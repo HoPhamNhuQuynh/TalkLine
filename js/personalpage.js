@@ -42,4 +42,20 @@ $(document).ready(function () {
         event.preventDefault();
         $(".subcontent-create").hide();
     });
+
+    $(".popup2").hide();
+    //chỉ focus những hình ảnh trong bài viết và tin lướt thôi
+    $(".photos img,.body-content>img").click(function (event) {
+        event.preventDefault();
+        let im = $(this).attr("src");
+        $(".popup2 .img").attr("src", im);
+        $(".popup2").show();
+    });
+
+    $(".close").click(function () {
+        event.preventDefault();
+        $(".popup").hide();
+        $(".popup2").hide();
+    })
+
 });

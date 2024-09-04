@@ -214,7 +214,7 @@ div.name-contact:hover {
    overflow: hidden;
    width: 45vw;
    height: 65vh;
-   position: absolute;
+   /* position: absolute; */
    top: 50%;
    left: 50%;
    transform: translate(-50%, -50%);
@@ -412,7 +412,7 @@ ul.item>li {
 }
 
 .next {
-   /* position: absolute; */
+   position: absolute;
    width: 100%;
    height: 30%;
    background-color: rgb(49, 72, 155);
@@ -431,6 +431,23 @@ ul.item>li {
 
 .subcontent-create.show {
    display: block;
+}
+
+/* css popup2 */
+div.popup2 {
+   position: fixed;
+   background-color: rgb(0, 0, 0, 0.8);
+   z-index: 9999;
+   top: 0;
+   right: 0;
+   left: 0;
+   bottom: 0;
+   text-align: center;
+
+}
+
+div.popup2 img {
+   height: 100vh;
 }
 
 /* THANH ĐIỀU HƯỚNG CHÍNH CỦA MẠNG XÃ HỘI */
